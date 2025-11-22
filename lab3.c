@@ -69,6 +69,7 @@ int main(int argc, char **argv) {
         break;
       case 'l':
         g.logging = 1;
+        break;
       case 'p':
         g.nproducers = atoi(optarg);
         break;
